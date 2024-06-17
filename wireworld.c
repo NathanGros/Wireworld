@@ -162,7 +162,7 @@ void main() {
 		if (IsMouseButtonDown(MOUSE_BUTTON_LEFT)) {
 			int w = GetScreenWidth();
 			int h = GetScreenHeight();
-			int px = min((w-200) / grid_w, (h-200) / grid_h);
+			int px = min((w-400) / grid_w, (h-400) / grid_h);
 			int start_x = h / 2 - px * grid_h / 2;
 			int start_y = w / 2 - px * grid_w / 2;
 			int mx = GetMouseX();
@@ -177,7 +177,7 @@ void main() {
 		if (IsMouseButtonDown(MOUSE_BUTTON_RIGHT)) {
 			int w = GetScreenWidth();
 			int h = GetScreenHeight();
-			int px = min((w-200) / grid_w, (h-200) / grid_h);
+			int px = min((w-400) / grid_w, (h-400) / grid_h);
 			int start_x = h / 2 - px * grid_h / 2;
 			int start_y = w / 2 - px * grid_w / 2;
 			int mx = GetMouseX();
